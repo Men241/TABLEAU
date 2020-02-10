@@ -1,0 +1,61 @@
+body{
+    background-image: url("img/bcgd copy.jpg");
+
+}
+
+
+main{
+    width: 600px;
+    height: 250px;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 220px;
+    box-shadow: black 0 0 5px 1px;
+
+}
+
+.tableau{
+    border-collapse: collapse;
+    display: inline-table;
+    margin: 18px 30px 30px 25px;
+    text-align: center;
+    padding: 10px;
+    width: 550px;
+    height: 150px;
+
+}
+
+table th, table td{
+    border: 2px solid black;
+    font-weight: normal;
+
+}
+
+caption{
+    font-size: 32px;
+    padding-bottom: 20px;
+    color: brown;
+}
+
+.pause{
+    background-color: brown;
+    color: white;
+}
+thead{
+    background-color: #3f3f3f;
+    color: white;
+}
+tfoot{
+    background-color: #3f3f3f;
+    color: white;
+}
+
+#lien{
+    position: relative;
+    top: -230px;
+    left: -330px;
+    display: flex;
+    flex-direction: column;
+}
